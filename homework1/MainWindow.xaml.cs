@@ -60,6 +60,9 @@ namespace homework1
 			MessageBox.Show($"Hello { firstNameText.Text } {lastNameText.Text}");
 			people.Add(new Person { FirstName = (firstNameText.Text), LastName = lastNameText.Text });
 			myComboBox.ItemsSource = people;
+			firstNameText.Text = "";
+			lastNameText.Text = "";
+			submitButton.IsEnabled = false;
 		}
 
 	} // end of partial class MainWindow
