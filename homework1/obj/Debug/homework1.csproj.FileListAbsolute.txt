@@ -1,0 +1,16 @@
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.csprojAssemblyReference.cache
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\MainWindow.g.cs
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\App.g.cs
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1_MarkupCompile.cache
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1_MarkupCompile.lref
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\bin\Debug\homework1.exe.config
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\bin\Debug\homework1.exe
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\bin\Debug\homework1.pdb
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\MainWindow.baml
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.g.resources
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.Properties.Resources.resources
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.csproj.GenerateResource.cache
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.csproj.CoreCompileInputs.cache
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.exe
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.pdb
+E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1_Content.g.cs
