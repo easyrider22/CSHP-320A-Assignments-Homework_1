@@ -46,8 +46,8 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        
-        <Image Grid.Row="1" Grid.Column="4" Grid.RowSpan="6" MaxHeight="350" MaxWidth="350"  Source="E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\Images\Hello World.png">
+
+        <Image Grid.Row="1" Grid.Column="4" Grid.RowSpan="6" MaxHeight="350" MaxWidth="350" Margin="10,10,20,10"  Source="E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\Images\Hello World.png">
         </Image>
 
     </Grid>

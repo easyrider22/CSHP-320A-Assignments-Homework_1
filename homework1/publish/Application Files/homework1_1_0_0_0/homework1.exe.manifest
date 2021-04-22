@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="homework1.exe" version="1.0.0.0" publicKeyToken="c0fc17865c6ac4ad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="homework1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="homework1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="homework1.exe" size="28160">
+      <assemblyIdentity name="homework1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E2XwYhT8dNl0UMQexHlik1Fs6XYycXI6+0bjjEgjoUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="homework1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sounds\energy_gone.wav" size="53652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ls2alMT2YGqtOZDJ6ZdyQsa95PtNINiH0AWB0gOjL34=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I5HD6E6\Shawn Boyd" issuerKeyHash="841d52e79a4547629d8de5c8b9809127a9b2be78" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>J2wCR2w5y3MLaNjOvouziiOoaCcR/x4vgfEpM9lTNcQ=</DigestValue></Reference></SignedInfo><SignatureValue>dMxEbZi/JDdMvDSGvdJ3B40fWlLzz1XTrirBPEdTeUrX2Fm9iX+2HiHnflnzGR/bhl57z/2tYFQOIiOQZ7fY2Oe8FZOcRqC5aP7dGRyVvjTo1hs3tFeApDA0ZfupDh4EuM4PgLuxvP+rXIRhdGeMU4N/YF7uYsi+uummbBtL93k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qljcE39bVZhLa+loK452YlvWDDfUJ8MMJFPZom1kGqR/gRqfVlPIMl2ZnLSDjZDFMZjacLw0HAMZzcDT2ttcp51gqCpQcJMjRmFcGzUJUPuE7kSrdBX5t45n0+x+z90oesRlWDZFaGDuROAx6M41Ce1iOGXw9uYBixkBdJJnrAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c43553d93329f1812f1eff112768a8238ab38bbeced8680b73cb396c47026c27" Description="" Url=""><as:assemblyIdentity name="homework1.exe" version="1.0.0.0" publicKeyToken="c0fc17865c6ac4ad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I5HD6E6\Shawn Boyd</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g1W74c9jni7LjIKo15f5YbHhMS8sAvbxQyKAr6l1dec=</DigestValue></Reference></SignedInfo><SignatureValue>d7Nv+hW8OjEr5UNdRCYXoJvOTzKbHrzpgiM3kYuKAwTxvvZ7334P6UPPvjTzYYsWPx1qpRGEMW6kTvIv8rG6t7qb+LAsOzNDMGkZYluqRXver9Nq2ziAh6tHhcoOzVNUsiMdC6qd0qRawGxnhiQMEJoG1HhqBZ9lxbFQlYjuulk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qljcE39bVZhLa+loK452YlvWDDfUJ8MMJFPZom1kGqR/gRqfVlPIMl2ZnLSDjZDFMZjacLw0HAMZzcDT2ttcp51gqCpQcJMjRmFcGzUJUPuE7kSrdBX5t45n0+x+z90oesRlWDZFaGDuROAx6M41Ce1iOGXw9uYBixkBdJJnrAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQPv+3UmkzzbFBgq/bf+CPHDANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQARABFAFMASwBUAE8AUAAtAEkANQBIAEQANgBFADYAXABTAGgAYQB3AG4AIABCAG8AeQBkMB4XDTIxMDQyMjAzMDI0MVoXDTIyMDQyMjA5MDI0MVowPzE9MDsGA1UEAx40AEQARQBTAEsAVABPAFAALQBJADUASABEADYARQA2AFwAUwBoAGEAdwBuACAAQgBvAHkAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqljcE39bVZhLa+loK452YlvWDDfUJ8MMJFPZom1kGqR/gRqfVlPIMl2ZnLSDjZDFMZjacLw0HAMZzcDT2ttcp51gqCpQcJMjRmFcGzUJUPuE7kSrdBX5t45n0+x+z90oesRlWDZFaGDuROAx6M41Ce1iOGXw9uYBixkBdJJnrAECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBHs1gEUvAbifHQR1/Ekln8VcyVOiWWaBvNkypF14pvhi/E/kzONPeovBC+WuUdKWudPJRYLMXT2Wr267wDCWebNbgA22RkUWHYUefeyY3rLha8GA+lMF4f6wGXsofe7VFhHA4MAAnq+Ati7gE45l0NiIBEX8XjPOQWBGc6/Em+lQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -92,6 +92,7 @@ namespace homework1
 			{
 				return $"{ FirstName } { LastName }";
 			}
+			
 		}
 
 	} // end of class Person

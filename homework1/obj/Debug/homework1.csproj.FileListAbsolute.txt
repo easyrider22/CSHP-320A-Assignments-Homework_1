@@ -14,3 +14,7 @@ E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\
 E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.exe
 E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1.pdb
 E:\Users\shawn\source\repos\CSHP320A\CSHP-320A-Assignments-Homework_1\homework1\obj\Debug\homework1_Content.g.cs
+e:\users\shawn\source\repos\cshp320a\cshp-320a-assignments-homework_1\homework1\bin\Debug\homework1.exe.manifest
+e:\users\shawn\source\repos\cshp320a\cshp-320a-assignments-homework_1\homework1\bin\Debug\homework1.application
+e:\users\shawn\source\repos\cshp320a\cshp-320a-assignments-homework_1\homework1\obj\Debug\homework1.exe.manifest
+e:\users\shawn\source\repos\cshp320a\cshp-320a-assignments-homework_1\homework1\obj\Debug\homework1.application
