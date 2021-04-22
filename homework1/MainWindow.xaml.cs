@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Media;
 using System.Text;
@@ -23,7 +24,20 @@ namespace homework1
 	{
 		public List<Person> people = new List<Person>();
 
-        public object FullName { get; private set; }
+		public abstract class ObservableObject : INotifyPropertyChanged
+		{
+			public event PropertyChangedEventHandler PropertyChanged;
+
+			protected void RaisePropertyChangedEvent(string propertyName)
+			{
+				var handler = PropertyChanged;
+				if (handler != null)
+					handler(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+
+
+		public object FullName { get; private set; }
 
         public MainWindow()
 		{
